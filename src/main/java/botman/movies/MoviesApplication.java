@@ -18,7 +18,7 @@ public class MoviesApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3000")
+                        .allowedOrigins("http://localhost:3000", "https://review-matter.vercel.app", "https://review-matter-76cth5u6x-manpreet4491s-projects.vercel.app", "https://review-matter-git-main-manpreet4491s-projects.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true)
