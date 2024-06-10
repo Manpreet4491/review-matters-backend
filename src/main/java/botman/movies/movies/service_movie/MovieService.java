@@ -1,5 +1,7 @@
-package botman.movies.movies;
+package botman.movies.movies.service_movie;
 
+import botman.movies.movies.model_movie.Movie;
+import botman.movies.movies.repository_movie.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,9 @@
-package botman.movies.movies;
+package botman.movies.reviews.service_review;
 
 
+import botman.movies.reviews.model_review.Review;
+import botman.movies.reviews.repository_review.ReviewRepository;
+import botman.movies.movies.model_movie.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

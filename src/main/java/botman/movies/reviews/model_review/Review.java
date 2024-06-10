@@ -1,4 +1,4 @@
-package botman.movies.movies;
+package botman.movies.reviews.model_review;
 
 import java.time.LocalDateTime;
 

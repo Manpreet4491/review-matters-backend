@@ -1,5 +1,6 @@
-package botman.movies.movies;
+package botman.movies.movies.controller_movie;
 
+import botman.movies.movies.model_movie.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +14,7 @@ import java.util.Optional;
 public class MovieController {
 
     @Autowired
-    private MovieService MovieService;
+    private botman.movies.movies.service_movie.MovieService MovieService;
 
     @GetMapping
     public ResponseEntity<List<Movie>> getMovies() {

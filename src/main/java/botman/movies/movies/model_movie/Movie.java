@@ -1,5 +1,6 @@
-package botman.movies.movies;
+package botman.movies.movies.model_movie;
 
+import botman.movies.reviews.model_review.Review;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
